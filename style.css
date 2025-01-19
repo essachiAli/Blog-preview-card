@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10%;
+  margin: 20px 0px;
+}
+.container {
+  max-width: 20rem;
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-family: "Figtree", sans-serif;
+  box-shadow: 10px 10px 0px;
+}
+.container * {
+  margin: 10px 0px;
+}
+.image {
+  width: 100%;
+  border-radius: 10px;
+}
+button {
+  background-color: hsl(47, 88%, 63%);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+}
+button a {
+  color: black;
+  text-decoration: none;
+  font-weight: 900;
+  transition: 0.2s;
+}
+button a:hover {
+  color: rgb(73, 76, 73);
+}
+p {
+  color: hsl(0, 0%, 42%);
+  font-size: clamp(0.7rem, 1vw, 2rem);
+  font-weight: 500;
+}
+h1 {
+  font-size: clamp(1rem, 1vw, 2rem);
+  font-weight: 900;
+  cursor: pointer;
+  transition: 0.2s;
+}
+h1:hover {
+  color: hsl(47, 88%, 63%);
+}
+.avatar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+}
+.avatar img {
+  width: 50px;
+  height: 50px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  margin-bottom: 20px;
+}
